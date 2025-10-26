@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎥 Universal Video Downloader</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1 class="title">🎥Video Downloader</h1>
+    <p class="subtitle">Paste any video link and download instantly</p>
+
+    <div class="card">
+      <input id="videoURL" type="text" placeholder="🔗 Paste your video link here..." />
+      <button id="downloadBtn" onclick="downloadVideo()">Download</button>
+      <p id="status"></p>
+    </div>
+
+    <footer>
+      <p>Created by Montasir Mahmud</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
