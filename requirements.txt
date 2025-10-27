@@ -4,3 +4,4 @@ yt-dlp
 aiofiles
 python-multipart
 requests
+python-dotenv
